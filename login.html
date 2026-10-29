@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="min-h-screen flex items-center justify-center bg-slate-100">
+
+
+
+    <form id="login-form" class="w-full max-w-sm">
+        <fieldset class="rounded-2xl border border-slate-200 bg-white p-8 shadow-xl">
+
+    <div>
+
+        <img src="assets/github-logo.png" class="flex text-center" alt="">
+    </div>
+
+            <legend class="px-3 text-2xl font-bold text-blue-600 flex text-center">
+                Login
+            </legend>
+
+            <label for="email" class="mb-2 block font-semibold text-slate-700">
+                ID number
+            </label>
+
+            <input 
+                type="text"
+                id="idn"
+                placeholder="Enter your ID"
+                required
+                class="mb-5 w-full rounded-lg border border-slate-300 px-4 py-3 outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-200">
+            
+
+            <label for="password" class="mb-2 block font-semibold text-slate-700">
+                Password
+            </label>
+
+            <input
+                type="password"
+                id="password"
+                placeholder="Enter your password"
+                required
+                class="mb-6 w-full rounded-lg border border-slate-300 px-4 py-3 outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-200"
+            >
+
+            <button
+                type="button"
+                class="w-full rounded-lg bg-blue-600 py-3 font-bold text-white shadow-md transition hover:bg-blue-700 active:scale-95" id="btn">Login</button>
+            
+             
+  
+
+
+        </fieldset>
+    </form>
+
+
+<script src="login.js">
+
+</script>
+</body>
+</html>
